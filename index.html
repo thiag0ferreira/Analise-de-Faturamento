@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Faturamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Análise de Faturamento Diário</h1>
+        <button onclick="analyzeFaturamento()">Analisar Faturamento</button>
+        <div id="result">
+            <p><strong>Menor valor de faturamento:</strong> <span id="menorValor"></span></p>
+            <p><strong>Maior valor de faturamento:</strong> <span id="maiorValor"></span></p>
+            <p><strong>Número de dias com faturamento superior à média:</strong> <span id="diasAcimaMedia"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
